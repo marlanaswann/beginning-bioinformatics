@@ -28,4 +28,20 @@
   else: # This else needs to be aligned with the if
 - How I verified correctness (tests, sample data): I verified correctness by performing this code on sample data first, and additionally asked Chat GPT to explain each step and why it was used.
 
+- # AI Use Log - Rosalind #6
+- Tool/model & version: Chat GPT 5
+- What I asked for:I asked for help storing my file into an object that can also read it. From thereI was able to use the count function and also ask Chat GPT how I can integrate the count function using the code I had so far. 
+- Snippet of prompt(s): "How can I use fix this code so I count every word in this file: with open ("rosalind_ini6.txt", "r") as story: ros_count = story.read() print(story.count)"
+- What I changed before committing: I fixed my object name and added it in place of the word "story". I also added - unique_words = set(words) to help get only distinct words in the count and "for word in unique_words: print(word, words.count(word))" to print the word and number side by side for each unique count.
+- How I verified correctness (tests, sample data): I verified correctness by first ensuring my code for reading the file and printing was correct using sample data. After adding the Ai changes, I had chat GPT break down the rationale for the new commands and show me different examples with other practice set data. 
+
+
+# AI Use Log
+- Tool/model & version:
+- What I asked for:
+- Snippet of prompt(s):
+- What I changed before committing:
+- How I verified correctness (tests, sample data):
+
+
 - 
