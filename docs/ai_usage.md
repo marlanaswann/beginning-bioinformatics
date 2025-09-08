@@ -1,3 +1,5 @@
+#No AI use on Rosalind #1, #2, #8
+
 # AI Use Log - Rosalind #3
 - Tool/model & version: Gemini (Built into Colab latest version)
 - What I asked for: An automatic error : Gemini error told me: TypeError: 'int' object is not iterable; 
@@ -36,12 +38,18 @@
 - How I verified correctness (tests, sample data): I verified correctness by first ensuring my code for reading the file and printing was correct using sample data. After adding the Ai changes, I had chat GPT break down the rationale for the new commands and show me different examples with other practice set data. 
 
 
+# AI Use Log - Rosalind #7
+- Tool/model & version: Gemini(Built into Colab)
+- What I asked for: I asked for help with the error in my code. This error occcured due to me trying to perform a Biopython function on an object that I had not converted to become a Seq object. 
+- Snippet of prompt(s): I asked it to "explain the error in my code".
+- What I changed before committing: I converted the string I read from the file into a Biopython Seq object and then applied the transcribe() method.
+- How I verified correctness (tests, sample data): I verified correctness by reading through the rationale, running parts of the code to see if it was working, and then re-used parts of the code to continue further testing for other problems.
+
 # AI Use Log
 - Tool/model & version:
 - What I asked for:
 - Snippet of prompt(s):
 - What I changed before committing:
 - How I verified correctness (tests, sample data):
-
 
 - 
