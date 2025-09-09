@@ -45,11 +45,11 @@
 - What I changed before committing: I converted the string I read from the file into a Biopython Seq object and then applied the transcribe() method.
 - How I verified correctness (tests, sample data): I verified correctness by reading through the rationale, running parts of the code to see if it was working, and then re-used parts of the code to continue further testing for other problems.
 
-# AI Use Log
-- Tool/model & version:
-- What I asked for:
-- Snippet of prompt(s):
-- What I changed before committing:
-- How I verified correctness (tests, sample data):
+# AI Use Log - Rosalind #9
+- Tool/model & version: Gemini (Colab latest version)
+- What I asked for: I asked it to help troubleshoot the closed file error in my code.
+- Snippet of prompt(s): I clicked "Fix error" and it promppts an explanation.
+- What I changed before committing: It helped me initialize a variable to store the highest GC content as well as a variable to use in my “if" statement for later . It also helped me create the if statement for "if gc_content> highest_gc_content" then set the variables we made equal to each other (highest_gc_content and highest_gc_id). Finally, it helped me to print both of those - the ID and highest GC content.
+- How I verified correctness (tests, sample data): I verified correctness by running a sample file and comparing the manual calculations to the output. 
 
-- 
+
