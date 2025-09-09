@@ -1,2 +1,1 @@
-# beginning-bioinformatics
-Beginning bioinformatics course code
+Marlana Swann + 1002299570 + BIOL5340-001
